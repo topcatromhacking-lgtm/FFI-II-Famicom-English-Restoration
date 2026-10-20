@@ -29,9 +29,23 @@ The file contains simultaneously populated, nonoverlapping bank regions consiste
 
 This static snapshot **cannot on its own prove** that both endings were viewed, that every story flag or game-save checksum is correct, that loading was retested after each completion, or that no failures could occur on other emulators or real cartridges. Those distinctions should be kept explicit.
 
-### Save-file privacy
+### Public completion save (shared with the owner's permission)
 
-The `.srm` was used for inspection only and **has not been uploaded to this public repository**. No character names, raw save contents, or personal-save hashes are published here. Redistribution of the save requires separate approval from its owner.
+The maintainer **explicitly authorized publication** of the original battery-save on October 20, 2026. It is now available as a binary `.srm` file in the repository:
+
+[Download the completed ChaosRush FFI+II SRAM save](saves/Final%20Fantasy%20I%20%26%20II%20%5BChaosRush1.3%2B2.2b%2BMenuByGrond%2BSaveFixbyTopCat%5D.srm)
+
+- **Exact filename:** `Final Fantasy I & II [ChaosRush1.3+2.2b+MenuByGrond+SaveFixbyTopCat].srm`
+- **File size:** 32,768 bytes (32 KiB)
+- **SHA-256:** `80effb9cfdefeaca642a6920f8b234854bc938c8dc31c472f59cfd202fca7111`
+- **Git blob SHA-1:** `0b3002576c1374820608287c1a1c20a9e9598ed5`
+- **Edition:** ChaosRush, FF1 v1.3 + FF2 v2.2b; Grond menu and dual-save fixes
+
+The Git blob SHA-1 matches the original user's uploaded file byte for byte. This is a user-authorized exception to the repository's general practice of excluding private emulator saves; it contains no game ROM.
+
+**How to use it:** Back up any existing `.srm` first. Use the matching ChaosRush compilation edition. Depending on your emulator, copy the downloaded save into the emulator's battery-save directory and rename it so the basename matches your patched ROM. Do not treat `.srm` as a save-state file. Emulator-specific placement and SRAM compatibility may vary.
+
+The file is intended for reproducible examination of the **two completed games and their separate battery-backed save regions**. It does not certify compatibility with other editions, emulators, or hardware.
 
 ## Other editions
 
