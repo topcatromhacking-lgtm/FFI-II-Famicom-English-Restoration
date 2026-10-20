@@ -1,0 +1,68 @@
+# FFI+II Famicom restoration public release
+# Only README/documentation and independently reviewed IPS patches are intended here.
+# The original game, translated game images, user saves, archives and generated
+# assets must never be committed.
+
+# Complete cartridge/ROM/disk images
+*.nes
+*.NES
+*.unf
+*.unif
+*.rom
+*.ROM
+*.bin
+*.BIN
+*.iso
+*.ISO
+*.img
+*.IMG
+*.chd
+*.CHD
+
+# Saves and emulator state
+*.sav
+*.srm
+*.state
+*.state.*
+*.fds
+*.dmp
+*.dump
+*.ram
+
+# Bundles, temporary files, and executable outputs
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.exe
+*.dll
+*.o
+*.obj
+*.log
+*.tmp
+*.bak
+
+# Local data, workspaces, and secrets
+/private/
+/roms/
+/ROMs/
+/work/
+/workbench/
+/scratch/
+/build/
+/output/
+/dist/
+/test-roms/
+/backups/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Deliberately NOT ignored: *.ips (intended reviewed release files).
+# Note: .gitignore does not erase already tracked files.
