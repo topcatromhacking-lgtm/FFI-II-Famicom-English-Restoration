@@ -1,7 +1,9 @@
 # FFI+II Famicom restoration public release
-# Only README/documentation and independently reviewed IPS patches are intended here.
-# The original game, translated game images, user saves, archives and generated
-# assets must never be committed.
+# Documentation and verified IPS patches are intended here, plus one explicit,
+# owner-approved completed-game SRAM artifact already tracked in saves/.
+# New private saves, game ROMs, prepatched images, archives and generated assets
+# should not be committed. The blanket *.srm ignore rule remains for new saves.
+# .gitignore does not exclude the already tracked, approved completion save.
 
 # Complete cartridge/ROM/disk images
 *.nes
