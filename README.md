@@ -48,15 +48,19 @@ The **Prototype Edition** is deliberately distinct: it preserves the historical 
 
 ## Patches and installation
 
-**This public repository contains project documentation and one explicitly authorized completed-game SRAM save. The three IPS patch binaries are pending upload. No complete game ROMs, copyrighted game-image dumps, tools, or build scripts are included.**
+**This public repository now preserves all three original TopCat v1.0 IPS patches, their SHA-256 verification manifest, and one explicitly authorized completed-game SRAM save. No complete game ROMs, copyrighted game-image dumps, tools, or build scripts are included.**
 
-The three historical releases and their downloads can currently be found at the original publication pages:
+### Download the original IPS patches (GitHub)
 
-- [Save and NPCFix, release #7555](https://www.romhacking.net/translations/7555/)
-- [The Prototype Edition, release #7556](https://www.romhacking.net/translations/7556/)
-- [ChaosRush Edition, release #7557](https://www.romhacking.net/translations/7557/)
+| Edition | Download IPS | Historical publication |
+| --- | --- | --- |
+| **Save and NPCFix** (Demiforce) | [Original .ips](patches/Final%20Fantasy%20I%20%26%20II%20%28J%29%20%5BT%2BDemiforce_v1.0%5D%2BSaveNPCFix-TopCat.ips) | [Romhacking.net #7555](https://www.romhacking.net/translations/7555/) |
+| **USA Prototype Edition** | [Original .ips](patches/Final%20Fantasy%20I%20%26%20II%20USA%20Prototype%20Edition%2BFix-TopCat.ips) | [Romhacking.net #7556](https://www.romhacking.net/translations/7556/) |
+| **ChaosRush Edition** (includes Grond menu) | [Original .ips](patches/Final%20Fantasy%20I%20%26%20II%20%5BChaosRush1.3-2.2b%2BMenu-Grond%2BSaveNPCFix-TopCat.ips) | [Romhacking.net #7557](https://www.romhacking.net/translations/7557/) |
 
-**Repository mirror status:** TopCat supplied an archive containing the original three IPS files on October 20, 2026. The ZIP passed an integrity check, and the three IPS files passed structural validation. The [patch archive directory](patches/) has been created with the original filenames, installation instructions, and a version-preservation policy; sizes, SHA-256 checksums, and verification limits are documented in [PATCH-VERIFICATION.md](PATCH-VERIFICATION.md). **The three binary IPS files are awaiting upload into `patches/`.** Until verified copies appear there, the historical Romhacking.net links above remain the distribution references. These checks do not substitute for gameplay testing, and the files have not been independently matched against remote Romhacking.net downloads. No ROM builds are included here.
+**Integrity and preservation:** [patches/SHA256SUMS.txt](patches/SHA256SUMS.txt) contains the original SHA-256 checksums. On October 20, 2026, all three repository files were verified **byte for byte** against the owner-supplied archival ZIP by comparing their Git blob SHA-1 identifiers, in addition to their recorded sizes and SHA-256 values. See [PATCH-VERIFICATION.md](PATCH-VERIFICATION.md) and the [patch archive's versioning policy](patches/README.md). The original patches remain unchanged; any future improvements should be distributed as separately versioned patches.
+
+Structural verification is not a substitute for gameplay testing, and the files have not been independently matched against downloads from Romhacking.net. This repository distributes **IPS patches, not ROM images**.
 
 ### Base ROM identity
 
