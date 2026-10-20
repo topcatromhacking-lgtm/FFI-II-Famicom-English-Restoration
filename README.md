@@ -16,8 +16,8 @@ These are **three alternatives**, not three patches that must be applied one aft
 
 | Edition | What you get | Translation and source credits | Historical release |
 | --- | --- | --- | --- |
-| **Save and NPCFix** | The original Neo Demiforce English compilation, with the NPC-freeze/save restoration approach and the corrected multicart presentation. Best for preserving the classic fan-translation experience. | Neo Demiforce; Grond; TopCat integration | [Romhacking.net #7555](https://www.romhacking.net/translations/7555/) |
-| **The Prototype Edition** | The **North American Final Fantasy** and the surviving **unreleased US Final Fantasy II prototype** together in the original compilation format. Best for experiencing the historically unfinished US localization. | Square's original localizations; Lost Levels' preservation of the FFII prototype; Grond; TopCat integration | [Romhacking.net #7556](https://www.romhacking.net/translations/7556/) |
+| **Save and NPCFix** | The original Neo Demiforce English compilation with NPC-freeze and dual-save repairs, while retaining the original compilation's selection screen (not Grond's redesigned screen or dash). Best for preserving the classic fan-translation experience. | Neo Demiforce; Grond; TopCat integration | [Romhacking.net #7555](https://www.romhacking.net/translations/7555/) |
+| **The Prototype Edition** | The **North American Final Fantasy** and the surviving **unreleased US Final Fantasy II prototype** together in the original compilation format, using its original selector (without Grond's custom menu or dash). Best for experiencing the historically unfinished US localization. | Square's original localizations; Lost Levels' preservation of the FFII prototype; Grond; TopCat integration | [Romhacking.net #7556](https://www.romhacking.net/translations/7556/) |
 | **ChaosRush Edition** | The combined game with **Chaos Rush's Final Fantasy v1.3** and **Final Fantasy II v2.2b** English translations, providing terminology and scripts closer to later official localization conventions. | Chaos Rush and his collaborators; Grond; TopCat integration | [Romhacking.net #7557](https://www.romhacking.net/translations/7557/) |
 
 The project versions are based on the three **TopCat v1.0 releases dated October 26, 2025**. Each edition has its own translation lineage. No claim is made that the original translation scripts were authored by TopCat.
@@ -56,7 +56,7 @@ The three historical releases and their downloads can currently be found at the 
 - [The Prototype Edition, release #7556](https://www.romhacking.net/translations/7556/)
 - [ChaosRush Edition, release #7557](https://www.romhacking.net/translations/7557/)
 
-**Repository mirror status:** the original three IPS files have **not yet been reverified and mirrored into this GitHub repository**. The original release pages are the available distribution references until verified IPS files are added. We will not recreate the bytes of a missing patch from its description, and no new ROM builds are included here.
+**Repository mirror status:** TopCat supplied an archive containing the original three IPS files on October 20, 2026. The ZIP passed an integrity check, and the three IPS files passed structural validation. Their sizes, SHA-256 checksums, and validation limits are documented in [PATCH-VERIFICATION.md](PATCH-VERIFICATION.md). **The binary IPS files are not yet uploaded to this GitHub repository.** The original release pages remain the available distribution references until the exact verified IPS files are added. These checks do not substitute for gameplay testing, and the files have not been independently matched against remote Romhacking.net downloads. No ROM builds are included here.
 
 ### Base ROM identity
 
