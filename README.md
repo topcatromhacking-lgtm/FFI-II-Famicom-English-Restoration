@@ -86,7 +86,9 @@ Don't apply a standalone FF1 or FFII English translation patch over an already a
 
 The historical development established the cause of a merged-build selector failure and verified that restoring the missing multicart block made the menu appear again. The original release descriptions document the three editions and the restoration goals.
 
-This README **does not assert** that every complete playthrough, real-hardware configuration, emulator, or combination of save states has been tested. Please report the exact edition, emulator/hardware, NPC/location, sequence of steps and the result, without publishing ROMs or personal save data.
+**ChaosRush Edition:** As reported on October 20, 2026, the maintainer completed **both FF1 and FF2**, saw both endings, and encountered no errors in the playthroughs. A supplied 32 KiB battery save was privately inspected and contains data in two distinct 8 KiB banks consistent with both games' save arrangements. The FFII-associated region exhibits the documented 768-byte slot spacing. Details and limits are recorded in [GAMEPLAY-VALIDATION.md](GAMEPLAY-VALIDATION.md). **The save file has not been published.**
+
+This is maintainer-reported playthrough evidence supported by structural save-file inspection, not independent reproduction of the endings. It does **not** establish that every real-hardware configuration, emulator, or combination of save states has been tested, or that the other two editions have also been completed. Please report the exact edition, emulator/hardware, NPC/location, sequence of steps and the result, without publishing ROMs or personal save data.
 
 ## Credits and provenance
 
