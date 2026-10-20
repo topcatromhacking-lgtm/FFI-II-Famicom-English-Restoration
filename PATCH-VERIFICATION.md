@@ -14,7 +14,15 @@ The archive passed a ZIP CRC integrity check. All three IPS files contain the ex
 
 These checks establish **file integrity and syntactic validity**, not gameplay correctness or independent authenticity against downloads from Romhacking.net. A full test requires patching a matching, legally obtained copy of the original Japanese compilation and running both games, including NPC dialogue and separate save/reload cycles.
 
-**Repository status:** the three IPS binaries remain pending upload; the validated patches are not yet distributed through this GitHub repository. The original publication links are listed in [README.md](README.md). Neither ROMs nor prepatched ROM images belong in this repository.
+**Repository status: published and verified.** All three original IPS files are now committed to [`patches/`](patches/) alongside [`SHA256SUMS.txt`](patches/SHA256SUMS.txt). On October 20, 2026, their GitHub Git blob SHA-1 identifiers were compared against Git blob identifiers independently computed from the **owner-supplied original IPS files**. All three match exactly, confirming byte-for-byte identity.
+
+| Edition | Original file Git blob SHA-1 | GitHub file Git blob SHA-1 |
+| --- | --- | --- |
+| Save and NPCFix | `c01a8bc2a95050552df9f8562fffc9041d51af26` | **Match** |
+| USA Prototype Edition | `c3016c1954619c81b998e0c3ac17a1c825cb134e` | **Match** |
+| ChaosRush Edition | `e64005a3f2b40b187abb012817cf15658aa7902e` | **Match** |
+
+Both checksums and patch bytes are preserved in Git version history. Neither ROMs nor prepatched ROM images belong in the repository. This verification is against the owner's archive, **not an independent re-download from Romhacking.net**.
 
 ## Selection screens
 
