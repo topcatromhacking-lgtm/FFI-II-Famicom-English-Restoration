@@ -1,0 +1,3 @@
+bafa0d7ab67525d0b77469b3c1227566ab21ff676dc331203056a8f5c2fff102  Final Fantasy I & II (J) [T+Demiforce_v1.0]+SaveNPCFix-TopCat.ips
+27b194b0cafcc7e3d9e46cff4bbabcffc825eaabf5aac73f3627b6ed1e93d44f  Final Fantasy I & II USA Prototype Edition+Fix-TopCat.ips
+40961c1851926017279c8a8f94daa6c581e1576d69b50cada5318ce11fa01fbe  Final Fantasy I & II [ChaosRush1.3-2.2b+Menu-Grond+SaveNPCFix-TopCat.ips
