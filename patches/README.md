@@ -10,7 +10,7 @@ This directory is intended to contain the **three original TopCat v1.0 IPS files
 | US Prototype Edition | `Final Fantasy I & II USA Prototype Edition+Fix-TopCat.ips` | 127,123 | `27b194b0cafcc7e3d9e46cff4bbabcffc825eaabf5aac73f3627b6ed1e93d44f` |
 | ChaosRush Edition | `Final Fantasy I & II [ChaosRush1.3-2.2b+Menu-Grond+SaveNPCFix-TopCat.ips` | 69,701 | `40961c1851926017279c8a8f94daa6c581e1576d69b50cada5318ce11fa01fbe` |
 
-**Current status:** The original IPS files are verified against the owner's archival ZIP but are **not yet present in this directory**. They will be published here without modifying the original bytes.
+**Current status: all three original IPS files are published in this directory.** Their exact GitHub blob SHA-1 values match independently computed Git blob identifiers for the original files in the owner's archival ZIP. This confirms byte-for-byte preservation. The adjacent [SHA256SUMS.txt](SHA256SUMS.txt) provides portable checksums for users who download them.
 
 The owner-supplied archive passed ZIP integrity checks. Each IPS parsed completely with valid `PATCH` and `EOF` markers and no overlapping records. These are structural validations, not a guarantee of compatibility with all emulators or hardware. For full technical details see [PATCH-VERIFICATION.md](../PATCH-VERIFICATION.md).
 
