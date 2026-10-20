@@ -48,7 +48,7 @@ The **Prototype Edition** is deliberately distinct: it preserves the historical 
 
 ## Patches and installation
 
-**Only IPS delta patches belong in this public repository. There are no game ROMs, copyrighted game-image dumps, saved games, tools, or build scripts.**
+**This public repository contains project documentation and one explicitly authorized completed-game SRAM save. The three IPS patch binaries are pending upload. No complete game ROMs, copyrighted game-image dumps, tools, or build scripts are included.**
 
 The three historical releases and their downloads can currently be found at the original publication pages:
 
@@ -86,9 +86,9 @@ Don't apply a standalone FF1 or FFII English translation patch over an already a
 
 The historical development established the cause of a merged-build selector failure and verified that restoring the missing multicart block made the menu appear again. The original release descriptions document the three editions and the restoration goals.
 
-**ChaosRush Edition:** As reported on October 20, 2026, the maintainer completed **both FF1 and FF2**, saw both endings, and encountered no errors in the playthroughs. A supplied 32 KiB battery save was privately inspected and contains data in two distinct 8 KiB banks consistent with both games' save arrangements. The FFII-associated region exhibits the documented 768-byte slot spacing. Details and limits are recorded in [GAMEPLAY-VALIDATION.md](GAMEPLAY-VALIDATION.md). **The save file has not been published.**
+**ChaosRush Edition:** As reported on October 20, 2026, the maintainer completed **both FF1 and FF2**, saw both endings, and encountered no errors in the playthroughs. A supplied 32 KiB battery save was privately inspected and contains data in two distinct 8 KiB banks consistent with both games' save arrangements. The FFII-associated region exhibits the documented 768-byte slot spacing. Details and limits are recorded in [GAMEPLAY-VALIDATION.md](GAMEPLAY-VALIDATION.md). **The original 32 KiB save is now [publicly available with its owner's permission](saves/Final%20Fantasy%20I%20%26%20II%20%5BChaosRush1.3%2B2.2b%2BMenuByGrond%2BSaveFixbyTopCat%5D.srm)**, with its SHA-256 checksum, usage notes and limitations documented in [GAMEPLAY-VALIDATION.md](GAMEPLAY-VALIDATION.md).
 
-This is maintainer-reported playthrough evidence supported by structural save-file inspection, not independent reproduction of the endings. It does **not** establish that every real-hardware configuration, emulator, or combination of save states has been tested, or that the other two editions have also been completed. Please report the exact edition, emulator/hardware, NPC/location, sequence of steps and the result, without publishing ROMs or personal save data.
+This is maintainer-reported playthrough evidence supported by structural save-file inspection, not independent reproduction of the endings. It does **not** establish that every real-hardware configuration, emulator, or combination of save states has been tested, or that the other two editions have also been completed. Please report the exact edition, emulator/hardware, NPC/location, sequence of steps and the result, without publishing ROMs or other people's saves without their consent.
 
 ## Credits and provenance
 
@@ -110,4 +110,4 @@ Historical references:
 
 This is an unofficial, free, noncommercial fan restoration, unaffiliated with Square Enix, Nintendo or the original translation groups. All game names, characters, art, and code belong to their respective rights holders.
 
-**Do not upload or link complete prepatched ROM images here.** Please preserve the original translators' credits when sharing these patches or describing the work.
+**Do not upload or link complete prepatched ROM images here.** The publicly shared ChaosRush SRAM save is a specifically authorized test artifact, not a ROM or game image. Please preserve the original translators' credits when sharing these patches or describing the work.
